@@ -11,12 +11,12 @@ public class GETCallRestAPI
 	public void getUsers_APITest()
 	{
 	RestAssured.baseURI = "https://gorest.co.in";
-	given()
+	given().log().all()
 	.contentType("application/json")
 	.header("Authorization","Bearer tZOFX-5H7fWfexq4QK2rNY84Dolble_k-y3W")
-	.when()
+	.when().log().all()
 	.get("/public-api/users/")
-	.then()
+	.then().log().all()
 	.statusCode(200)
 	.and()
 	.header("Server", "nginx")
