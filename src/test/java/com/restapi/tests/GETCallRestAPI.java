@@ -12,7 +12,7 @@ public class GETCallRestAPI
 	{
 	RestAssured.baseURI = "https://gorest.co.in";
 	given().log().all()
-		.contentType("application/json")
+	.contentType("application/json")
 		.header("Authorization","Bearer tZOFX-5H7fWfexq4QK2rNY84Dolble_k-y3W")
 	.when().log().all()
 		.get("/public-api/users/")
