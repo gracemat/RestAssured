@@ -1,0 +1,11 @@
+{ 
+        "first_name": "Tanner",
+        "last_name": "Larkin",
+        "gender": "male",
+        "dob": "2001-05-09",
+        "email": "brenna.schmidt@example.com",
+        "phone": "+1-265-445-0965",
+        "website": "http://harvey.com/",
+        "address": "715 Zboncak Turnpike Apt. 905\nRobbville, WA 81936",
+        "status": "inactive"
+        }
